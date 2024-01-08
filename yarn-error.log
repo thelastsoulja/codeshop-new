@@ -1,0 +1,106 @@
+Arguments: 
+  /root/.nvm/versions/node/v16.20.2/bin/node /usr/share/yarn/bin/yarn.js install
+
+PATH: 
+  /root/.nvm/versions/node/v16.20.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.20.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/usr/share/yarn/lib/cli.js:141517:19)
+      at Object.onceWrapper (node:events:627:28)
+      at ClientRequest.emit (node:events:513:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:839:9)
+      at Object.onceWrapper (node:events:627:28)
+      at TLSSocket.emit (node:events:525:35)
+      at TLSSocket.Socket._onTimeout (node:net:550:8)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+
+npm manifest: 
+  {
+    "name": "@sylius-ui/frontend",
+    "version": "1.0.1",
+    "license": "MIT",
+    "author": "Sylius Sp. z o.o.",
+    "dependencies": {
+      "@babel/polyfill": "^7.0.0",
+      "chart.js": "^3.7.1",
+      "jquery": "^3.5.0",
+      "jquery.dirtyforms": "^2.0.0",
+      "lightbox2": "^2.9.0",
+      "semantic-ui-css": "^2.2.0",
+      "slick-carousel": "^1.8.1"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.0.0",
+      "@babel/plugin-external-helpers": "^7.0.0",
+      "@babel/plugin-proposal-object-rest-spread": "^7.18.9",
+      "@babel/preset-env": "^7.18.10",
+      "@babel/register": "^7.0.0",
+      "@rollup/plugin-babel": "^5.3.1",
+      "@rollup/plugin-commonjs": "^22.0.2",
+      "@rollup/plugin-inject": "^4.0.4",
+      "@rollup/plugin-node-resolve": "^13.3.0",
+      "@semantic-ui-react/css-patch": "^1.1.2",
+      "@symfony/webpack-encore": "^3.1.0",
+      "babel-plugin-fast-async": "^6.1.2",
+      "babel-plugin-module-resolver": "^4.1.0",
+      "dedent": "^0.7.0",
+      "eslint": "^8.23.0",
+      "eslint-config-airbnb-base": "^15.0.0",
+      "eslint-import-resolver-babel-module": "^5.3.1",
+      "eslint-plugin-import": "^2.26.0",
+      "fast-async": "^6.3.8",
+      "gulp": "^4.0.2",
+      "gulp-chug": "^0.5.1",
+      "gulp-concat": "^2.6.1",
+      "gulp-debug": "^4.0.0",
+      "gulp-if": "^3.0.0",
+      "gulp-livereload": "^4.0.2",
+      "gulp-order": "^1.2.0",
+      "gulp-sass": "^5.1.0",
+      "gulp-sourcemaps": "^3.0.0",
+      "gulp-uglifycss": "^1.1.0",
+      "merge-stream": "^2.0.0",
+      "rollup": "^2.79.0",
+      "rollup-plugin-terser": "^7.0.2",
+      "sass": "^1.54.8",
+      "sass-loader": "^13.0.0",
+      "upath": "^2.0.1",
+      "yargs": "^17.5.1"
+    },
+    "engines": {
+      "node": "^14 || ^16 || ^18"
+    },
+    "engineStrict": true,
+    "scripts": {
+      "watch": "encore dev --watch",
+      "build": "encore dev",
+      "build:prod": "encore production",
+      "gulp": "gulp build",
+      "lint": "yarn lint:js",
+      "lint:js": "eslint gulpfile.babel.js src/Sylius/Bundle/AdminBundle/gulpfile.babel.js src/Sylius/Bundle/ShopBundle/gulpfile.babel.js src/Sylius/Bundle/UiBundle/Resources/private/js src/Sylius/Bundle/AdminBundle/Resources/private/js src/Sylius/Bundle/ShopBundle/Resources/private/js",
+      "postinstall": "semantic-ui-css-patch"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Sylius/Sylius.git"
+    },
+    "author": "Sylius Sp. z o.o.",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

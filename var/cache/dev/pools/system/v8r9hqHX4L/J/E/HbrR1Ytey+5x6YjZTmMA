@@ -1,0 +1,34 @@
+<?php //subresource_operations_9b53f30fbdcabc6158d1a29ce8a5f3da
+
+return [PHP_INT_MAX, [
+    'api_promotions_coupons_get_subresource' => [
+        'property' => 'coupons',
+        'collection' => true,
+        'resource_class' => 'Sylius\\Component\\Core\\Model\\PromotionCoupon',
+        'shortNames' => [
+            'PromotionCoupon',
+            'Promotion',
+        ],
+        'legacy_filters' => [],
+        'legacy_normalization_context' => [],
+        'legacy_type' => null,
+        'identifiers' => [
+            'code' => [
+                'Sylius\\Component\\Core\\Model\\Promotion',
+                'code',
+                true,
+            ],
+        ],
+        'operation_name' => 'coupons_get_subresource',
+        'route_name' => 'api_promotions_coupons_get_subresource',
+        'path' => '/admin/promotions/{code}/coupons',
+        'defaults' => [],
+        'requirements' => [],
+        'options' => [],
+        'host' => '',
+        'schemes' => [],
+        'condition' => '',
+        'controller' => null,
+        'stateless' => null,
+    ],
+]];

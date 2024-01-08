@@ -1,0 +1,3 @@
+<?php //%5BC%5DSymfony%255CComponent%255CMailer%255CMessenger%255CSendEmailMessage%2524envelope
+
+return [PHP_INT_MAX, 1703527648];

@@ -1,0 +1,37 @@
+<?php //subresource_operations_59bae1ea0d22316bcbc8917b20a2f7b9
+
+return [PHP_INT_MAX, [
+    'api_taxa_images_get_subresource' => [
+        'property' => 'images',
+        'collection' => true,
+        'resource_class' => 'Sylius\\Component\\Core\\Model\\TaxonImage',
+        'shortNames' => [
+            'TaxonImage',
+            'Taxon',
+        ],
+        'legacy_filters' => [],
+        'legacy_normalization_context' => [],
+        'legacy_type' => null,
+        'identifiers' => [
+            'code' => [
+                'Sylius\\Component\\Core\\Model\\Taxon',
+                'code',
+                true,
+            ],
+        ],
+        'operation_name' => 'images_get_subresource',
+        'route_name' => 'api_taxa_images_get_subresource',
+        'path' => '/admin/taxons/{code}/images',
+        'openapi_context' => [
+            'summary' => 'Retrieves the collection of TaxonImage resources for a given Taxon.',
+        ],
+        'defaults' => [],
+        'requirements' => [],
+        'options' => [],
+        'host' => '',
+        'schemes' => [],
+        'condition' => '',
+        'controller' => null,
+        'stateless' => null,
+    ],
+]];

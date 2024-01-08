@@ -1,0 +1,34 @@
+<?php //subresource_operations_51d9386ebb253cfd65400c8538377ff0
+
+return [PHP_INT_MAX, [
+    'api_payment_methods_gateway_config_get_subresource' => [
+        'property' => 'gatewayConfig',
+        'collection' => false,
+        'resource_class' => 'Sylius\\Bundle\\PayumBundle\\Model\\GatewayConfig',
+        'shortNames' => [
+            'GatewayConfig',
+            'PaymentMethod',
+        ],
+        'legacy_filters' => [],
+        'legacy_normalization_context' => [],
+        'legacy_type' => null,
+        'identifiers' => [
+            'code' => [
+                'Sylius\\Component\\Core\\Model\\PaymentMethod',
+                'code',
+                true,
+            ],
+        ],
+        'operation_name' => 'gateway_config_get_subresource',
+        'route_name' => 'api_payment_methods_gateway_config_get_subresource',
+        'path' => '/admin/payment-methods/{code}/gateway-config',
+        'defaults' => [],
+        'requirements' => [],
+        'options' => [],
+        'host' => '',
+        'schemes' => [],
+        'condition' => '',
+        'controller' => null,
+        'stateless' => null,
+    ],
+]];

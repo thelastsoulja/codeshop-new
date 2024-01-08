@@ -1,0 +1,34 @@
+<?php //subresource_operations_410fdd849789b15174dd5e5b289d0ada
+
+return [PHP_INT_MAX, [
+    'api_order_items_adjustments_get_subresource' => [
+        'property' => 'adjustments',
+        'collection' => true,
+        'resource_class' => 'Sylius\\Component\\Core\\Model\\Adjustment',
+        'shortNames' => [
+            'Adjustment',
+            'OrderItem',
+        ],
+        'legacy_filters' => [],
+        'legacy_normalization_context' => [],
+        'legacy_type' => null,
+        'identifiers' => [
+            'id' => [
+                'Sylius\\Component\\Core\\Model\\OrderItem',
+                'id',
+                true,
+            ],
+        ],
+        'operation_name' => 'adjustments_get_subresource',
+        'route_name' => 'api_order_items_adjustments_get_subresource',
+        'path' => '/admin/order-items/{id}/adjustments',
+        'defaults' => [],
+        'requirements' => [],
+        'options' => [],
+        'host' => '',
+        'schemes' => [],
+        'condition' => '',
+        'controller' => null,
+        'stateless' => null,
+    ],
+]];

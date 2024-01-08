@@ -1,0 +1,64 @@
+<?php //subresource_operations_9fc7e45b1a60b9087ea91dc85f702f02
+
+return [PHP_INT_MAX, [
+    'api_products_images_get_subresource' => [
+        'property' => 'images',
+        'collection' => true,
+        'resource_class' => 'Sylius\\Component\\Core\\Model\\ProductImage',
+        'shortNames' => [
+            'ProductImage',
+            'Product',
+        ],
+        'legacy_filters' => [],
+        'legacy_normalization_context' => [],
+        'legacy_type' => null,
+        'identifiers' => [
+            'code' => [
+                'Sylius\\Component\\Core\\Model\\Product',
+                'code',
+                true,
+            ],
+        ],
+        'operation_name' => 'images_get_subresource',
+        'route_name' => 'api_products_images_get_subresource',
+        'path' => '/admin/products/{code}/images',
+        'defaults' => [],
+        'requirements' => [],
+        'options' => [],
+        'host' => '',
+        'schemes' => [],
+        'condition' => '',
+        'controller' => null,
+        'stateless' => null,
+    ],
+    'api_products_attributes_get_subresource' => [
+        'property' => 'attributes',
+        'collection' => true,
+        'resource_class' => 'Sylius\\Component\\Product\\Model\\ProductAttributeValue',
+        'shortNames' => [
+            'ProductAttributeValue',
+            'Product',
+        ],
+        'legacy_filters' => [],
+        'legacy_normalization_context' => [],
+        'legacy_type' => null,
+        'identifiers' => [
+            'code' => [
+                'Sylius\\Component\\Core\\Model\\Product',
+                'code',
+                true,
+            ],
+        ],
+        'operation_name' => 'attributes_get_subresource',
+        'route_name' => 'api_products_attributes_get_subresource',
+        'path' => '/shop/products/{code}/attributes',
+        'defaults' => [],
+        'requirements' => [],
+        'options' => [],
+        'host' => '',
+        'schemes' => [],
+        'condition' => '',
+        'controller' => null,
+        'stateless' => null,
+    ],
+]];

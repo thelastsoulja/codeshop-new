@@ -1,0 +1,3 @@
+<?php //Sylius%255CComponent%255CCore%255CModel%255CChannelPriceHistoryConfigInterface%2523setLowestPriceForDiscountedProductsVisible
+
+return [PHP_INT_MAX, []];

@@ -1,0 +1,3 @@
+<?php //Gedmo%255CLoggable%255CLogEntryInterface%2523getLoggedAt
+
+return [PHP_INT_MAX, []];
